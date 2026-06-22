@@ -64,6 +64,9 @@ A classifier is genuinely useful if it achieves at least 70% overall accuracy an
 
 **Label stress-testing:** Give Claude all four label definitions and ask it to generate 10 posts that sit at the boundary between practice and personal (the hardest pair). If I cannot classify the generated posts cleanly, tighten the definitions before annotating.
 
-**Annotation assistance:** I will manually label all 200 examples myself to maintain consistency. I may use Claude to pre-label a batch of 20 examples as a sanity check — comparing its labels to mine to identify cases where my own annotation is inconsistent.
+**Annotation assistance:** Claude generated all 200 synthetic training examples 
+(50 per label) due to accessibility constraints. All examples were reviewed for 
+label accuracy and authenticity before use. This will be disclosed in the AI 
+Usage section of the README.
 
 **Failure analysis:** After evaluation, I will give Claude the list of wrong predictions and ask it to identify patterns — for example, whether misclassifications cluster around short posts, posts mixing two topics, or a specific label pair. I will verify any pattern it identifies by reading the examples myself before including it in the evaluation report.
