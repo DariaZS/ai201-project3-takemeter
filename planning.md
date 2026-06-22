@@ -15,15 +15,15 @@ r/Buddhism on Reddit
 
 **resource** — post primarily recommends or requests books, teachers, podcasts, apps, centers, or links. The value is the pointer, not the discussion itself.
 
-### Ambiguous Case + Decision Rule
+## Ambiguous Case + Decision Rule
 
-**Post:**
-[paste the ambiguous post you found here]
+**Post:** "My weird meditation practice" — author shares that they meditate best at rock concerts, describes the experience, and asks if others have had similar experiences.
 
-**Could be:** [label A] or [label B]
+**Could be:** `practice` or `personal`
 
-**Decision rule:**
-[write your rule here]
+**Why it's ambiguous:** It describes a specific meditation technique/approach (practice) but the author is also sharing their own personal experience and feelings (personal).
+
+**Decision rule:** If the post primarily describes HOW the author does something AND invites others to discuss the technique, label it `practice`. If the post primarily reflects on the author's inner experience or life situation with technique as secondary, label it `personal`. This post → `practice` because the central topic is the meditation method itself, not the author's emotional journey.
 
 ## Data Collection Plan
 Source: r/Buddhism, sorted by Top → All Time
