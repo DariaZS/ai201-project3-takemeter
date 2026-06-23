@@ -38,6 +38,16 @@ Example: "My weird meditation practice" (rock concert meditation) → practice, 
 
 **resource vs philosophy:** A post recommending a book but also explaining its doctrinal significance could be either. Decision rule: if the post's primary value is the pointer to external content, label it resource. If the recommendation is incidental and the post is primarily explaining ideas, label it philosophy.
 
+**practice vs philosophy:**
+Post: "Can anyone explain the difference between samatha and vipassana meditation? I've been doing breath awareness for a year and my teacher mentioned I should start incorporating vipassana but I'm not sure what changes in practice."
+Could be: practice or philosophy
+Decision: practice — the question is about how to change technique, not about understanding the conceptual difference between the two.
+
+**resource vs philosophy:**
+Post: "For Mahayana philosophy, Jay Garfield's translation of Nagarjuna's Mulamadhyamakakarika is the best scholarly English edition. His philosophical commentary is essential — don't read the text without it."
+Could be: resource or philosophy
+Decision: resource — the primary value of the post is pointing to a specific book, even though it mentions philosophical content.
+
 ## Data Collection Plan
 
 Source: r/Buddhism text posts and comments, filtered to text-only.
