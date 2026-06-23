@@ -61,6 +61,14 @@ Default hyperparameters were used without modification. With only 200 training e
 
 ---
 
+## Baseline
+
+**Model:** Groq llama-3.3-70b-versatile, zero-shot (no examples provided)
+**Prompt:** Each post was classified using label definitions from planning.md, instructing the model to output only the label name in lowercase. Valid labels were listed explicitly at the end of the prompt.
+**Results collected:** Via Colab notebook Section 5, classifying all 30 test examples automatically.
+
+---
+
 ## Evaluation Report
 
 ### Overall Accuracy
@@ -130,10 +138,10 @@ The model predicted `practice` for many non-practice posts. With recall of 1.00,
 
 | Post (truncated) | True Label | Predicted | Confidence |
 |---|---|---|---|
-| "I've been counting breaths for 3 months and rarely get past 4..." | practice | practice | high |
-| "The doctrine of anatta seems to contradict karma and rebirth..." | philosophy | philosophy | high |
-| "I started practicing Buddhism after my divorce..." | personal | practice | medium |
-| "Bhikkhu Bodhi's translations of the Majjhima Nikaya are excellent..." | resource | resource | high |
+| "I've been instructed to do kinhin (walking meditation)..." | practice | practice | 0.28 |
+| "The doctrine of anatta seems to contradict karma..." | philosophy | philosophy | 0.28 |
+| "My grandmother practiced Tibetan Buddhism..." | personal | practice | 0.26 |
+| "Bhikkhu Bodhi's translations of the Majjhima Nikaya..." | resource | resource | 0.28 ||
 
 The philosophy prediction is reasonable — the post uses technical doctrinal vocabulary (anatta, karma, rebirth) that clearly signals philosophical inquiry rather than personal experience or technique.
 
