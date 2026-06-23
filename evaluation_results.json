@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 1.0,
+  "finetuned_accuracy": 0.7333,
+  "improvement": -0.2667,
+  "test_set_size": 30,
+  "label_map": {
+    "practice": 0,
+    "philosophy": 1,
+    "personal": 2,
+    "resource": 3
+  },
+  "model": "distilbert-base-uncased"
+}
