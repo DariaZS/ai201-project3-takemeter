@@ -180,7 +180,7 @@ All 8 wrong predictions had confidence scores around 0.26-0.27, indicating the m
 
 ## Demo
 
-[Add YouTube/Loom link here after recording]
+https://youtu.be/i8EdQrF-Ww8
 
 ## Known Limitations and Planned Improvements
 
